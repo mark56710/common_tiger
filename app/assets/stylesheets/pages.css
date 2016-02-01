@@ -1,0 +1,164 @@
+body, html{
+	font-family: Arial, Helvetica, sans-serif;
+	color:#000000;
+	background: url('/assets/common_tiger_bg.jpg') fixed 0 0;
+
+	height:100%;
+	position:relative;
+}
+//* #9999ff *//
+header{
+	width:100%;
+	background-repeat:no-repeat;
+	background-position:center top;
+}
+
+.style_image {
+	width: 650px;
+	display: block;
+  margin-left: auto;
+  padding-top: 47px;
+  margin-right: auto;
+  box-shadow: 2px 5px 5px #000000;
+
+}
+
+ul.tour {
+  text-align: center;
+  list-style-type: none;
+
+}
+
+h1 {
+  color: #ffffff ;
+  text-align: center;
+  padding-top: 50px;
+  font-family: Helvetica;
+  font-size: 4em;
+  font-weight: 100;
+  text-shadow: 3px 3px 3px #000000;
+
+}
+
+.socialmedia_images {
+  display: inline-block;
+  padding-right: 5px;
+  width:  55px;
+  height: 45px;
+  float: right;
+
+}
+
+footer {
+  position:fixed;
+  bottom: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+
+iframe {
+  width: 650px;
+  display: block;
+  margin-left: auto;
+  margin-top: 50px;
+  margin-right: auto;
+  box-shadow: 2px 5px 5px #000000;
+
+}
+
+body {margin:0;}
+ul.topnav {
+  box-shadow:0px 2px 7px #000000;
+  position: fixed;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+ul.topnav li a:hover {background-color: #111;}
+
+ul.topnav li.icon {display: none;}
+
+@media screen and (max-width:680px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+iframe {
+  width: 350px;
+  height: 350px;
+  display: block;
+  margin-left: auto;
+  margin-top: 25px;
+  margin-right: auto;
+  box-shadow: 2px 5px 5px #000000;
+
+}
+
+h1 {
+  color: #ffffff ;
+  text-align: center;
+  padding-top: 25px;
+  font-family: Helvetica;
+  font-size: 1.5em;
+  font-weight: 100;
+  text-shadow: 3px 3px 3px #000000;
+
+}
+
+.socialmedia_images {
+  display: inline-block;
+  padding-right: 0px;
+  width:  35px;
+  height: 25px;
+  float: right;
+
+}
+.style_image {
+  width: 350px;
+  display: block;
+  margin-left: auto;
+  padding-top: 20px;
+  margin-right: auto;
+  box-shadow: 2px 5px 5px #000000;
+
+}
+}
+

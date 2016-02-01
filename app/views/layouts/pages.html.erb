@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+  		<title>CommonTiger</title>
+  		
+	</head>
+	<header>
+			<ul class="topnav">
+  					<li><a class="active" href="#Home">Home</a></li>
+  					<li><a href="#Music">Music</a></li>
+  					<li><a href="#Videos">Videos</a></li>
+  					<li><a href="#Tour">Tour</a></li>
+  					<li class="icon">
+    				<a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
+  					</li>
+				</ul>
+
+	</header>
+		<body>
+
+			<a name="Home"><%= image_tag('common_tiger_header.jpg', :class => "style_image")  %></a>
+
+			<a name="Music"><h1>MUSIC</h1></a>
+
+			<iframe width="500" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/80170036&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+
+			<a name="Videos"><h1>VIDEOS</h1></a>
+
+			<iframe width="560" height="450" src="https://www.youtube.com/embed/uFQsR0aojQ8" frameborder="no" allowfullscreen></iframe>
+
+
+			<iframe width="560" height="450" src="https://www.youtube.com/embed/46m3uEnS9MQ" frameborder="no" allowfullscreen></iframe>
+
+			<a name="Tour"><h1>TOUR</h1></a>
+
+		
+
+
+
+			
+			
+		<%= yield %>
+
+		</body>
+	<footer>
+		<a href="https://www.facebook.com/CommonTigerMusic/"><%= image_tag('facebook-button.jpg', :class => "socialmedia_images")  %></a>
+		<a href="https://soundcloud.com/common-tiger"><%= image_tag('soundcloud-logo.jpg', :class => "socialmedia_images")  %></a>
+		<a href="https://twitter.com/ACommonTiger"><%= image_tag('twitter-button.jpg', :class => "socialmedia_images")  %></a>
+		<a href="https://commontigermusic.wordpress.com/"><%= image_tag('wordpress-button.jpg', :class => "socialmedia_images")  %></a>
+	</footer>.
+</html>
